@@ -65,11 +65,7 @@ int main()
         }
         cout<<endl;
     }
-    
+
 
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2e1bf62cabb533784d3d0a30d349035450105bf9
