@@ -31,7 +31,7 @@ void mulMat(double mat1[][C1], double mat2[][C2]) {
 int main()
 {
     int num_case, i, j,k;  
-    cout << "Input your num_case of D-H Parameters :";
+    cout << "Input your i of D-H Parameters :";
     // Take input using cin
     cin >> num_case;
     double dhP[num_case][4];
@@ -40,7 +40,7 @@ int main()
     {
         for (j = 0; j < 4; j++)
         {
-            cout << "num_case :" << i + 1 << "/ postion :" << j + 1 << "/4 :";
+            cout << "i :" << i + 1 << "/ postion :" << j + 1 << "/4 :";
             cin >> dhP[i][j];
         }
     }
